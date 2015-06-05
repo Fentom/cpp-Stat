@@ -1,0 +1,140 @@
+
+prog étant le nom de mon exécutable ;-)
+
+Tiens-moi au courant si t'as des trucs fort différents des miens ;-)
+
+
+
+
+
+prog Donnee1DContinue.txt
+-------------------------
+
+Borne inf : 1
+Borne sup : 10
+Intervalle : 1.5
+
+Effectif total = 11
+Moyenne = 4.61364
+Mediane = 4.45
+Mode = 4.75 : 0 : 0
+Ecart type = 2.16471
+Etendue = 7.5
+Coefficient de variation = 46.9197%
+Valeur min = 1.75
+Valeur max = 9.25
+Statistique sous controle = Oui
+
+
+Borne inf : 3
+Borne sup : 9
+Intervalle : 2
+
+Effectif total = 8
+Moyenne = 5.5
+Mediane = 5.5
+Mode = 6 : 0 : 0
+Ecart type = 1.32288
+Etendue = 4
+Coefficient de variation = 24.0523%
+Valeur min = 4
+Valeur max = 8
+Statistique sous controle = Oui
+
+(La médiane peut être différente selon comment tu l'as faite, y a l'air que Wagner n'est pas trop à cheval dessus pour une petite différence)
+
+
+
+
+
+prog Donnee1DDiscrete.txt
+-------------------------
+
+Effectif total = 12
+Moyenne = 4.91667
+Mediane = 5
+Mode = 5 : 0 : 0
+Ecart type = 2.56445
+Etendue = 9
+Coefficient de variation = 52.1582%
+Valeur min = 1
+Valeur max = 10
+Statistique sous controle = Oui
+
+
+
+
+
+prog Donnee1DDiscrete2.txt (test pour le contrôle)
+--------------------------
+
+Effectif total = 12
+Moyenne = 0.833333
+Mediane = 5
+Mode = 5 : 0 : 0
+Ecart type = 19.7477
+Etendue = 90
+Coefficient de variation = 2369.73%
+Valeur min = -60
+Valeur max = 30
+Statistique sous controle = Non
+
+
+
+
+
+prog Donnee1DDiscreteImpaire.txt	(test pour la médiane)
+--------------------------------
+
+Effectif total = 13
+Moyenne = 6.38462
+Mediane = 7
+Mode = 10 : 0 : 0
+Ecart type = 3.34062
+Etendue = 9
+Coefficient de variation = 52.323%
+Valeur min = 1
+Valeur max = 10
+Statistique sous controle = Oui
+
+
+
+
+
+prog Donnee2DExemple1.dat 1 2
+-----------------------------
+
+Effectif total = 15
+Moyenne Val1 = 42
+Moyenne Val2 = 16
+Coefficient de correlation (r) = 0.945515
+Coefficient a = 0.947537
+Coefficient b = -23.7966
+
+Prevision pour Age du medecin
+Entrer la valeur pour Age du medecin : 40 (ans)
+valeur prevue = 14.1049
+
+Prevision pour Experience
+(j'ai un beug dans ce sens-là.. mais la formule c'est x = (y-b)/a)
+
+
+
+
+
+prog Donnee2DExemple2.dat 1 2
+-----------------------------
+
+Effectif total = 10
+Moyenne Val1 = 114
+Moyenne Val2 = 2.728
+Coefficient de correlation (r) = 0.987878
+Coefficient a = 0.0249807
+Coefficient b = -0.1198
+
+Prevision pour Temperature (°C)
+Entrer la valeur pour Temperature (°C) : 70
+valeur prevue = 1.62885
+
+Prevision pour Temps (min)
+(pareil)

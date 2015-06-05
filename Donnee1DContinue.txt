@@ -1,0 +1,15 @@
+Poids des eleves de primaires (Ecoles d'une commune Province Luxembourg 2004_2005)
+NbrEnfant:NbrVoiture		
+C:D
+5:2
+10:3
+5:6
+2:1
+3:1
+5:1
+3:5
+4:8
+9:6
+7:8
+1:5
+5:3
